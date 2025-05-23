@@ -1,0 +1,114 @@
+body {
+    background-image: linear-gradient(to right top, #422200, #482707, #4e2d0d, #543211, #5a3816, #62401e, #6a4825, #72502d, #7e5d3a, #896a48, #957756, #a18465);
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: 0%;
+}
+
+body header .logom {
+    height: 100px;
+    width: 100px;
+}
+
+body header .logom img {
+    height: 100px;
+}
+
+body header {
+    display: flex;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    background-color: black;
+}
+
+body header nav {
+    margin: 10px;
+}
+
+body header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 200ms;
+}
+
+body header nav ul li a:link {
+    color: grey;
+}
+body header nav ul li a:visited {
+    color: gray;
+}
+body header nav ul li a:hover {
+    color: white;
+}
+body header nav ul li a:active {
+    color: black;
+}
+
+body header nav ul li {
+    list-style: none;
+}
+
+body header nav ul {
+    display: flex;
+    gap: 25px;
+    margin-left: 10rem;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+body header .all_menu {
+    height: 100px;
+    width: 32%;
+}
+
+body header .all_menu img {
+    height: 30%;
+    margin-top: 30px;
+    float: right;
+}
+
+body main .kelompok1 {
+    width: 425px;
+}
+
+body main .kelompok1 a img {
+    height: 325px;
+    margin-top: 100px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+body main .kelompok1 h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body main .kelompok1 h3 a {
+    margin-left: 125px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+body main .kelompok1 h3 a:link {
+    color: white;
+}
+body main .kelompok1 h3 a:visited {
+    color: white;
+}
+body main .kelompok1 h3 a:hover {
+    color: gray;
+}
+body main .kelompok1 h3 a:active {
+    color: black;
+}
+
+body main .kelompok1 p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 195px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
